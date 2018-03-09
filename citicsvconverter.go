@@ -53,8 +53,7 @@ type CitiRecord struct {
 
 // DumpCSV is a method on a type that dumps a CSV format
 func (r CitiRecord) DumpCSV() (*[]string, error) {
-	var _row []string
-	_row = make([]string, 0)
+	_row := make([]string, 0)
 	_row = append(_row, r.Date)
 	_row = append(_row, r.Payee)
 	_row = append(_row, r.Category)
