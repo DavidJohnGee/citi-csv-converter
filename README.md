@@ -65,3 +65,19 @@ testdata.csv
 "XXXXXXXXXX","Foo","01/01/2018","02/01/2018","12345","my company"," -1,000","GBP"," -1,000",,"98765"
 "XXXXXXXXXX","Foo","02/01/2018","03/01/2018","23456","a shop","10.00","GBP","10.00",,"98765"
 ```
+
+This library has two basic tests. Go to the project directory and run the tests as below:
+```bash
+go test -v
+=== RUN   TestFullYnabParser
+=== RUN   TestFullYnabParser/a_test
+--- PASS: TestFullYnabParser (0.00s)
+    --- PASS: TestFullYnabParser/a_test (0.00s)
+=== RUN   TestYnabParser
+=== RUN   TestYnabParser/a_test
+--- PASS: TestYnabParser (0.00s)
+    --- PASS: TestYnabParser/a_test (0.00s)
+PASS
+ok  	github.com/davidjohngee/citi-csv-converter	0.006s
+```
+
